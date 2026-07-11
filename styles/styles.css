@@ -17,6 +17,8 @@ main img {
     width: 300px;
     height: auto;
     box-shadow: 20px 0 5px 5px;
+    padding: 5px;
+    border: 1px solid purple;
 
 }
 
