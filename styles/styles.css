@@ -1,14 +1,15 @@
-nav{
+nav {
     background-color: darkblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
 
-h1{
+h1 {
     color: darkblue;
 }
 
@@ -20,6 +21,6 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p{
+p {
     padding: 10px;
 }
