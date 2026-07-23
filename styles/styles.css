@@ -12,12 +12,17 @@
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-align: none;
+
 }
 
 main {
@@ -83,4 +88,10 @@ footer {
     padding: 1rem;
     background-color: turquoise;
     border: 1rem solid rgb(0 0 0 / 10%);
+}
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
