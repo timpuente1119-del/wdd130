@@ -21,12 +21,13 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
-    text-align: none;
+    text-decoration: none;
 
 }
 
 main {
     max-width: 800px;
+    grid-column: 2/3;
 }
 
 main img {
@@ -41,11 +42,14 @@ main img {
 }
 
 aside {
+
     text-align: center;
     width: 400px;
     margin: 10rem;
     position: relative;
     color: black;
+    grid-column: 1/2;
+
 }
 
 aside img {
@@ -61,6 +65,10 @@ aside h2 {
 
 h1 {
     color: darkblue;
+
+    font-weight: 900;
+    border-bottom: 5px dashed gold;
+
 }
 
 img {
@@ -91,7 +99,13 @@ footer {
 }
 
 header,
+.grid,
 footer {
     max-width: 840px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
