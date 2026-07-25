@@ -66,6 +66,13 @@ h1 {
 
 }
 
+h2 {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    border: 5px;
+}
+
 .hero article {
     position: absolute;
     text-align: center;
@@ -77,4 +84,47 @@ h1 {
     float: right;
     width: 100px;
     border: 10px;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+nav img {
+    width: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: black;
+}
+
+.p1 {
+    order: -1;
+    text-wrap: wrap
+}
+
+section img {
+    width: 100px;
+    float: left;
+    padding: 20px;
+    border: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+
 }
