@@ -10,6 +10,7 @@
 
     --accent1-color: gold;
     --accent2-color: peru;
+    --accent3-color: black;
     --title-font: Helvetica;
     --body-font: Arial;
 
@@ -43,6 +44,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -89,7 +91,8 @@ h2 {
 header {
     display: grid;
     align-items: center;
-    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--accent3-color);
 
 }
 
@@ -97,6 +100,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-content: flex-end;
+    justify-content: space-evenly;
+    border: 2px solid black;
 }
 
 nav img {
@@ -126,11 +131,13 @@ section img {
 footer {
 
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: stretch;
+    background-color: var(--primary-color);
 
 }
 
-footer p,
-footer nav {
-    background-color: var(--primary-color);
+footer p {
+    grid-column-start: 2;
 }
