@@ -124,7 +124,12 @@ section img {
 }
 
 footer {
+
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
 
+}
+
+footer p {
+    background-color: var(--primary-color);
 }
