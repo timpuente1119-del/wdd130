@@ -131,6 +131,6 @@ footer {
 }
 
 footer p,
-nav {
+footer nav {
     background-color: var(--primary-color);
 }
