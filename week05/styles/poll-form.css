@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: navy;
+    margin: 0 auto;
+    width: 600px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gold;
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 2px;
+    border: 3px solid violet;
+    border-radius: 1rem;
+    background-color: aqua;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    border: 1px dashed black;
+    padding: 1rem;
+}
+
+legend {
+    color: green;
+    font-size: 1em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+    width: 18px;
+    height: 18px;
+}
+
+button {
+    padding: 1rem;
+    font-size: 2rem;
+    color: brown;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    border-top: 5px solid pink;
+    width: 450px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 2px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
