@@ -42,6 +42,27 @@ article {
     margin: 1rem;
 }
 
+.button-link {
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    /* Button color */
+    color: white;
+    /* Text color */
+    text-decoration: none;
+    /* Removes the underline */
+    border-radius: 5px;
+    /* Rounds the corners */
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #B59410;
+    /* Darker color when hovering */
+}
+
 .socialmedia a {
     text-decoration: none;
 
@@ -50,6 +71,7 @@ article {
 .hero,
 .address {
     position: relative;
+    text-align: center;
 }
 
 .address {
@@ -143,6 +165,24 @@ section {
     position: relative;
     background-color: black;
 }
+
+.adventure {
+    padding: 1rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+/* .history {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: .5rem;
+}
+
+.history h2 {
+    text-align: center;
+    grid-column: 1/4;
+} */
 
 .p1 {
     order: -1;
