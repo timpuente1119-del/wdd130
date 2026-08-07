@@ -74,6 +74,13 @@ article {
     text-align: center;
 }
 
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
 .address {
     text-align: center;
     display: flex;
@@ -153,8 +160,6 @@ form {
 
 .input {
     border: none;
-
-    justify-content: center;
     justify-content: center;
 }
 
@@ -166,13 +171,24 @@ section {
     background-color: black;
 }
 
+.grid-box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
 .adventure {
     padding: 1rem;
     gap: 1rem;
     text-align: center;
 }
 
-/* .history {
+.history {
     padding: 2rem;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -182,7 +198,8 @@ section {
 .history h2 {
     text-align: center;
     grid-column: 1/4;
-} */
+
+}
 
 .p1 {
     order: -1;
@@ -190,8 +207,8 @@ section {
 }
 
 section img {
-    width: 100px;
-    float: left;
+    width: 150px;
+
     padding: 20px;
     border: 20px;
 }

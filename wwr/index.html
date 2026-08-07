@@ -33,21 +33,37 @@
              Creating class "button - link and following per online suggestion" -->
             <!-- Problem 1 8/5/2026 -->
             <!-- Having trouble centering button on the hero picture -->
-            <a href="trips.html" class="button-link">Conquer Challenge</a>
-
+            <!-- Problem solved 8/6: Putting the button inside the article and adjusting in CSS -->
+            <article><a href="trips.html" class="button-link">Conquer Challenge</a>
+                <form>
+                    <P> Want to see new adventures and offers?</P>
+                    <div class="input">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                </form>
+            </article>
         </div>
-        <form>
-            <P> Want to see new adventures and offers?</P>
-            <div class="input">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="input">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail" required>
-            </div>
-        </form>
+        <section class="grid-box">
+            <figure>
+                <img src="images/rafting64_1024-2.jpg" alt="Offering Rapids">
+                <figcaption>Rapids</figcaption>
+            </figure>
 
+            <figure>
+                <img src="images/rafting43_600-2.jpg" alt="Offering Rivers">
+                <figcaption>Rivers</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rafters_camping.jpeg" alt="Offering Camping">
+                <figcaption>Camping</figcaption>
+            </figure>
+        </section>
     </main>
 
     <footer>
