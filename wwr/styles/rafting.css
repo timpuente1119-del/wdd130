@@ -188,6 +188,27 @@ section {
     text-align: center;
 }
 
+.trip1,
+.trip2,
+.trip3 {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--accent3-color);
+}
+
+table {
+    text-align: center;
+    border: 1px solid var(--accent2-color);
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid var(--accent2-color);
+    padding: 1rem;
+}
+
 .history {
     padding: 2rem;
     display: grid;
